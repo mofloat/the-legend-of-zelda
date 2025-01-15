@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <title>Breath of the Wild</title>
+        <link rel="icon" type="image/x-icon" href="../assets/images/triforce.jpeg">
+        <link rel="stylesheet" href="../style.css">
+        <script src="../script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFVUlEQVR4nO2abWxTVRjHH4woJn5QEY3CQNtuPacMhBiRRHHyoiKQaEKUOGDjnRHjC9H4wS98MDEY/cAXTfxEYmI0BmlRGAJRYkLAYM/t2DpZ77rNDBR5ESYTt/DSvzm3t2/r2217b2nL/SXPl6U9/z7/+5znPD0rkY2NjY2NjY2NjU1ZQde8d6Hw8xD8HITnDbqVgLpqOcJtEQQXAAoHBI9AYc/RrQAGWicgvPF39G0BwpuBjtm6CUyF6rqTah2EWj7Sko9F95KoAdFKeI9qGYSaHQhv/i/FgJ5XEgYo7AoEn0a1CnrXH9CS7t8KnP4Y6Hsd6FmeZIBmwtdUi0BduwzhLRH0vwVcPQuNy8eA4KIxBnDA71lAtQT8m8YjvKlPe/qX9iPO6CAQaEw3QLBu+B8fT7UC1NYPteQHtwGRawkDTm1PTz4e7neoFkBw9VSE2/7VDLjSlUh+JAQonuwGCH4ZgfrJVO1AXd+uJf/X54nkIzeA0MocTz9uwpdUzSC0eonW+KQBIwMJAy7uy598LALu+VS9jW9jb/y8H/ZHk782BHQ+bdwAwYJV2RDR0/pBysDT/yZw5rMM576B8LO3qZpA75o6hDcNpxggQ12Zu/HlaojC/TBVC1DX7k1LPtwGnJhTePKJCfELqgYQbn4x3viS4+RLJSQf/8rcRJUMDjfdDjWp8cWf/kYgMLM0A6ImdEkNqlSgrtmWlryMrqbSk4+bUKG3RxhsmZzW+OSFR3CheclH4x/42UNUaUDwneh8CvhtKXDyZaD7eaBjltnJx7bCTqokoEx/AoLfsCTZbA1R8GeoEgBoHBT3dgQ996Fzxr1lCaklNUHjbnb+BMXdrJ/TG8qnyTZENd3N5dLMCIKeO6CwcKI5eaaSxciJEIJdjG4FdgpHp9xltWZW5C1u6t5kh6wuSwjWPqYf3JybZMi9KNjfGRrUOss0BV+Xrscuwd9wv1WaWYFgO7J06SEcn15HVpZ+ugk7zNbLCY7XOyD4aPZjiu0jk4FgvkxaN/wcfxxwXR3YW8/N1swKFL4r71kdcK8hk5BrZdM5/UM9Ql4nVK9jr1l6OYGfzY1+M8s7sAzhhGsKlYgce7OV/pWjbi35WIS9DQtL1csLBD9SwMRW8lOBYN5s65/7sSHFgNAeh2LpKQQ/f7Xw0ZW1FK2nsJZca585FC3/5Oj1OYvWMzL09BYxuw8Vc7+vl376MZsU538aUwEyfI7BgcPTJhSqlxcItrWI5GPxfcF6Ct+db92RX1i6AbIKvM73C9XLCQKP3QOFXyjBACDgWWlYT/BVRteNnQKpVeAcUttdk4zq5QWCf1JS8lpDZJeMbAUorkna74YMrjuarQp8jk/JDBBwP5Jz6CksvstvAP+20HX/PJihCryOq/0+t7t0AxT+lUnJ68Fey//V2nhERJZtIIcjn8NbWvIBzxyDQ08hcQGdjQ9mLn12Nva64SNuDO53oXdPemJGo2e3M9Lf7ir+Kh2CHzQ5+VjsyjVeZzzeigzV6/y5FANGLTJATokrknRWJD95s5LXqsDrHCneAIUfs9CAc+iY+YAWSV3/1H6XqQaoXuevxRvQwRp0E65bYwL7Roukv5Wy51OevM95PeR1CFNOAhsbG5sc3EZEdxPRRCKSs76DiOT93CwimktE8/SQP3aSvwBdREQvENFiIlqmx2L9b4v018xPet9cfS255qO6xkRdU2qXnQlEJP8BMpuIniWipUmJlDukdpP+WeRnMv8eYAwzbnLCRgxpJAtpvNUNGLsFmipoC9SVYwtQBsY2QdmoYk3wyaRmJvuF0SYoXxt7n1zDsib4P6II4kpKTddCAAAAAElFTkSuQmCC" alt="triforce"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
+                        </div>
+                        <div class="navbar-nav">
+                            <a class="nav-link text-white" aria-current="page" href="../impressum.html">Impressum</a>
+                        </div>
+                    </div>
+                    <form class="d-flex" role="search" style="position: relative;">
+                        <input id="searchBar" class="form-control me-2" type="search" placeholder="Suche Zelda Charaktere" aria-label="Search">
+                        <ul id="autocompleteList" class="list-group position-absolute mt-1" style="display: none;"></ul>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <div class="text-center mt-4">
+            <h1>Echoes of Wisdom</h1>
+        </div>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/fb4__RzOVNs" title="The Legend of Zelda: Echoes of Wisdom – Launch Trailer – Nintendo Switch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6 pt-3 ps-3">
+                    <h4>
+                        Die Bewohner Hyrules verschwinden in merkwürdigen Rissen, 
+                        die sich auftun. Unter den Vermissten befindet sich auch 
+                        ein gewisser Schwertkämpfer und nun ist es an Prinzessin 
+                        Zelda, ihr Königreich zu retten. <br> <br>
+                        Verbünde dich mit der geheimnisvollen Fee Tri und nutze 
+                        die Macht des Tri-Stabs, um zu lernen, wie man Imitate – 
+                        sogenannte Echos – von Dingen aus der Umgebung erschafft.
+                    </h4>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

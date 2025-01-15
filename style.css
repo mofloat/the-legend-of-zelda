@@ -1,0 +1,51 @@
+#autocompleteList {
+    max-height: 200px; 
+    overflow-y: auto; 
+    width: 100%; 
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    background-color: white; 
+    border: 1px solid #ccc; 
+    z-index: 1000; 
+}
+.list-group-item a {
+    text-decoration: none;
+    color: inherit;
+}
+.list-group-item a:hover {
+    color: #0d6efd;
+}
+
+body {
+    background-image: url(./assets/images/background.png);
+    color: #F5F5F5; 
+}
+
+nav {
+    background-image: url(./assets/images/nav-background.jpeg);
+}
+
+a {
+    text-decoration: none;
+    color: #808080;
+}
+
+a:hover {
+    color: #0d6efd;
+}
+
+footer {
+    background-color: #000; 
+    color: #fff; 
+    padding: 1rem 0; 
+}
+
+footer a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
